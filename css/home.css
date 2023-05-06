@@ -1,0 +1,151 @@
+.header {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+}
+
+.header__logo {
+    background: -webkit-linear-gradient(#e22698, #4963e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.header__logo:hover{
+    background: -webkit-linear-gradient(#4963e3, #e22698);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header__menu li a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.header a {
+    color: #ec768f;
+}
+.header a:hover {
+    color: #f2335c;
+}
+.header__menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.banner img {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.home__content {
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.home__content-box_img {
+    /* position: relative; */
+}
+
+.home__content-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.home__product-title {
+    text-align: center;
+}
+
+.home__product-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.home__product-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.home__product-name{
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.home__product-box {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.home__product-title{
+    font-size: 30px;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.home__product-wrapper{
+    padding: 20px;
+}
+.footer {
+    background-color: #fff;
+    color: #333;
+    margin-top: 50px;
+}
+.footer__logo-name{
+    background: -webkit-linear-gradient(#e22698, #4963e3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.footer_contact {
+    display: flex;
+    gap: 80px;
+}
+
+.footer_contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 240px;
+}
+
+.contact-box_name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.contact-box_icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px 0;
+}
